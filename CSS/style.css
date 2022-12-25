@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Spectral SC SemiBold";
+    src: url("../Fonts/Spectralscsemibold.ttf");
+}
+
+body {
+    background-color: #d5d9da;
+    font-family: Montserrat, sans-serif;
+}
+
+.top-image {
+    background-image: url("../images/MainImg.png");
+    background-size: cover;
+    background-position: center;
+    height: 811px;
+}
+
+.header {
+    background-color: #dde0db;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    font-size: 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 354px;
+}
+
+.header .menu ul {
+    list-style: none;
+    font-size: 0;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 28px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(70, 80, 85);
+    line-height: 1.2;
+}
+
+.header-actions {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 94px;
+}
+
+.button {
+    width: 205px;
+    font-size: 16px;
+    color: rgb(121, 136, 144);
+    line-height: 11px;
+    padding: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-transparent {
+    border-width: 1px;
+    border-color: rgb(129, 130, 130);
+    border-style: solid;
+    width: 205px;
+}
+
+.gallery {
+    padding: 102px 0 55px 0;
+}
+
+.gallery h2 {
+    font-size: 40px;
+    font-family: "Spectral SC SemiBold", serif;
+    color: rgb(47, 40, 34);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.gallery-description {
+    font-size: 18px;
+    color: rgb(62, 52, 44);
+    line-height: 1.2;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+.gallery-items {
+    margin-left: -12px;
+    margin-right: -12px;
+    font-size: 0;
+}
+
+.gallery-item {
+    position: relative;
+    width: 384px;
+    height: 298px;
+    margin: 12px 11px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-item-big {
+    width: 792px;
+}
+
+.gallery-text {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.gallery-eye {
+    display: none;
+    opacity: 0.6;
+    background-color: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 290px;
+}
+
+.gallery-eye img {
+    vertical-align: middle;
+}
+
+.gallery-item:hover .gallery-eye {
+    display: block;
+}
+
+.tours{
+    padding: 54px 0 88px 0;
+}
+
+.tours h2{
+    font-size: 40px;
+    font-family: "Spectral SC SemiBold", serif;
+    color: rgb(47, 40, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.tour-items{
+    margin-right: -12px;
+    margin-left: -12px;
+    font-size: 0;
+}
+
+.tour-item{
+    margin: 0 12px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 384px;
+    position: relative;
+}
+
+.tour-item-info{
+    background-color: #31393f;
+    padding: 22px 22px 40px 22px;
+}
+
+.tour-item-text{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.btn-filled{
+    background-color: #da8246;
+    font-size: 18px;
+    color: rgb(37, 41, 43);
+}
+
+.tour-item-action{
+    text-align: center;
+}
+
+.btn-filled:hover{
+    background-color: rgb(218, 130, 70);
+    opacity: 0.702;
+    box-shadow: 0 4px 14.25px 0.75px rgba(217, 149, 103, 0.8);
+}
+
+.fix-block{
+    background-color: #da8246;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 5px;
+}
+
+.fix-block img{
+    vertical-align: middle;
+}
+
+.footer{
+    background-color: #31393f;
+    padding: 54px 0 49px 0;
+    font-size: 0;
+}
+
+.contacts{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 899px;
+    text-align: center;
+}
+
+.contacts-text{
+    font-size: 18px;
+    color: rgb(167, 185, 197);
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.phone{
+    font-size: 14px;
+    color: rgb(131, 145, 156);
+    line-height: 1.2;
+    margin-top: 7px;
+}
